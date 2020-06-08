@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ChuDeTheLoaiToDayFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativechudevatheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+            <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/textviewtitlechudetheloai"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chu de va the loai" />
+            <TextView
+            android:layout_alignParentRight="true"
+        android:id="@+id/textviewxemthemchudetheloai"
+
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xemthem" />
+
+
+    </RelativeLayout>
+
+
+
+
+        <HorizontalScrollView
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/relativechudevatheloai"
+            android:scrollbars="none"
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

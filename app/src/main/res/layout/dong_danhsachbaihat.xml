@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="15dp"
+                android:text="1"
+                android:id="@+id/textviewdanhsachindex"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textviewtencakhuc"
+
+                android:text="ten ca khuc"
+                android:textSize="20dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_toRightOf="@+id/textviewdanhsachindex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textviewtencasibaihat"
+                android:layout_toRightOf="@id/textviewdanhsachindex"
+                android:textSize="20dp"
+                android:text="tencaisi"
+                android:layout_below="@id/textviewtencakhuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/iconlove"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageviewluotthichdanhsachbaihat"
+                android:layout_width="30dp"
+
+                android:layout_height="30dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

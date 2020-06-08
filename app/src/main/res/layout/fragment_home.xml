@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    tools:context=".Fragment.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:name="com.example.appnghenhac.Fragment.BannerFragment"
+            android:id="@+id/fragment_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+        <fragment
+            android:name="com.example.appnghenhac.Fragment.PlayListFragment"
+            android:id="@+id/fragment_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+           android:name="com.example.appnghenhac.Fragment.ChuDeTheLoaiToDayFragment"
+            android:id="@+id/fragment_ChuDeTheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:name="com.example.appnghenhac.Fragment.AlbumFragment"
+            android:id="@+id/fragment_Album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:name="com.example.appnghenhac.Fragment.SongsFragment"
+            android:id="@+id/fragment_Song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

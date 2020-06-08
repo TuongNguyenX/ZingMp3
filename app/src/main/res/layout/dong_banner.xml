@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewbackgroundbanner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+
+
+
+    </ImageView>
+    <View
+        android:background="@drawable/custom_background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+    </View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@id/imageviewbackgroundbanner">
+
+        <ImageView
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:id="@+id/imageview_banner"
+            android:padding="2dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewtitlebanner"
+            android:layout_toRightOf="@id/imageview_banner"
+            android:layout_alignTop="@id/imageview_banner"
+            android:layout_marginTop="5dp"
+            android:text="hahahahah"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_below="@id/textviewtitlebanner"
+            android:layout_toRightOf="@id/imageview_banner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textviewnoidung"
+                android:textColor="@android:color/white"
+                android:maxLines="2"
+                android:layout_marginRight="40dp"
+                android:textSize="14dp"
+                android:text="Chao ban den voi ca khuc moi cua ca si"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

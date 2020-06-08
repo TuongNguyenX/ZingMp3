@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgseachbaihat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_toRightOf="@id/imgseachbaihat"
+        android:textSize="18dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtsearchtenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AAAAAAAAAAAAAAAA"/>
+    <TextView
+        android:layout_toRightOf="@id/imgseachbaihat"
+        android:textSize="18dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/txtsearchtenbaihat"
+        android:id="@+id/txtcasisearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ca Si"/>
+    <ImageView
+        android:src="@drawable/iconlove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageviewluotthichsearch"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
