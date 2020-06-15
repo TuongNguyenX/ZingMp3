@@ -172,7 +172,7 @@ public class DanhsachbaihatActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<BaiHat>> call, Response<List<BaiHat>> response) {
                 mangbaihat = (ArrayList<BaiHat>) response.body();
-                Log.d("EEE",mangbaihat.get(0).getTenbaihat());
+//                Log.d("EEE",mangbaihat.get(0).getTenbaihat());
                 danhsachbaihatAdapter = new DanhsachbaihatAdapter(DanhsachbaihatActivity.this,mangbaihat);
                 recyclerView.setLayoutManager(new LinearLayoutManager(DanhsachbaihatActivity.this));
                 recyclerView.setAdapter(danhsachbaihatAdapter);

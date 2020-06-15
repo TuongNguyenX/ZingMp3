@@ -15,24 +15,28 @@
         android:layout_height="wrap_content">
 
         <fragment
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="15dp"
             android:name="com.example.appnghenhac.Fragment.BannerFragment"
             android:id="@+id/fragment_banner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
         </fragment>
+
         <fragment
-            android:name="com.example.appnghenhac.Fragment.PlayListFragment"
-            android:id="@+id/fragment_playlist"
+            android:name="com.example.appnghenhac.Fragment.PlayListsFragment"
+            android:id="@+id/fragment_playlists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </fragment>
         <fragment
            android:name="com.example.appnghenhac.Fragment.ChuDeTheLoaiToDayFragment"
             android:id="@+id/fragment_ChuDeTheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:name="com.example.appnghenhac.Fragment.ChuDeFragment"
+            android:id="@+id/fragment_ChuDe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </fragment>
